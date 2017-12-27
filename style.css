@@ -1,0 +1,177 @@
+.heure
+{
+	font-size:2.5em;
+	/*border:2px solid silver;*/
+	display:inline-block;
+	margin-top:5px;
+	background:#091657;
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:15px;
+	border-radius:6px 6px 6px 6px ;
+	font-weight:bold;
+	color:white;
+}
+
+
+#saisie
+{
+	
+	display:inline-block;
+	padding:10px;
+	width:55%;
+	
+}
+
+input#saisir
+{
+	font-size:2em;
+	padding:10px;
+	width:95%;
+	border-radius:6px 6px 6px 6px ;
+}
+
+
+
+#textes
+{
+	font-size:2.5em;
+	background:white;
+	padding:10px;
+	border-radius:6px 6px 6px 6px;
+	text-align:center;
+	
+}
+
+#saisie
+{
+	/*margin:20px;*/
+}
+
+center  .interieur
+{
+	background:#4a5795;
+	margin-top:10px;
+	/*display:inline-block;*/
+	border-radius:6px 6px 6px 6px;
+}
+
+#donnees_saisie
+{
+	background:#bbc6ff;
+	padding:20px;			
+}
+
+body
+{
+	background:#bbc6ff;	
+}
+
+#reinitialiser
+{
+	position:relative;
+	top:15px;
+	margin-left:10px;
+	height:55px;
+	width:55px;
+	display:inline-block;
+	background:#4866fc;
+	border-radius:6px 6px 6px 6px;
+	cursor:pointer;
+}
+
+#reinitialiser:hover
+{
+	background:#1836c8;
+}
+
+
+#reinitialiser img
+{ 
+	
+	/*height:50px;*/
+	width:55px;
+	
+}
+	
+#resultat
+{
+	background:#001a9b;
+	margin-top:10px;
+	width:33%;
+	border-radius:10px 10px 0px 0px;
+}
+
+#resultat .entete
+{
+	padding:10px;
+	color:white;
+	font-size:1.5em;
+	
+	
+}
+
+#resultat .corps
+{
+	padding:10px;
+	font-size:1.5em;
+	background:white;
+	padding-bottom:40px;
+}
+
+#resultat .corps tr
+{
+	width:100%;
+	border-bottom:1px solid black;
+}
+
+#resultat .corps tr td:first-child
+{
+	width:90%;
+}
+	
+#resultat .corps tr td:nth-child(2)
+{
+	width:10%;
+}
+
+.actuel
+{
+	background:silver;
+	padding-left:5px;
+	padding-right:5px;
+	border-radius:6px 6px 6px 6px;
+}
+
+.correct
+{
+	background:#aafe85;
+	padding-left:5px;
+	padding-right:5px;
+	border-radius:6px 6px 6px 6px;
+}
+
+.incorrect
+{
+	background:#fe859c;
+	padding-left:5px;
+	padding-right:5px;
+	border-radius:6px 6px 6px 6px;
+}
+
+.instructions
+{
+	font-size:2em;
+	width:700px;
+	background:#43454b;
+	color:white;
+	margin-top:25px;
+	padding:15px;
+	border-radius:10px 10px 10px 10px;
+}
+
+#texte
+{
+	color:blue;
+}
